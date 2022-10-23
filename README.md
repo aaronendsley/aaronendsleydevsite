@@ -1,4 +1,4 @@
-__
+___
 
 # Aaron Endsley's Developer Portfolio Site
 
@@ -19,8 +19,7 @@ I will add a description of the technologies used once it is completed
 
 
 
-
-__
+___
 
 
 
