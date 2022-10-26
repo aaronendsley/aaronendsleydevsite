@@ -1,17 +1,17 @@
 import * as React from 'react';
 //import {Link} from 'gatsby';
-
+import { headerNav } from '../styles/HeaderNav.module.css';
 
 export default function HeaderNavigation() {
     return (
         <>
-            <header>
-                <h1>Aaron Endsley</h1>
+            <header className={headerNav}>
+                <h1>AARON ENDSLEY</h1>
                 <nav>
                     <ul>
-                        <li>Home</li>
-                        <li>Portfolio</li>
-                        <li>Blog</li>
+                        <li>HOME</li>
+                        <li>PORTFOLIO</li>
+                        <li>BLOG</li>
                     </ul>
                 </nav>
             </header>

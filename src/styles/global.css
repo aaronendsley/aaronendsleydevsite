@@ -1,0 +1,16 @@
+:root {
+    --cyan: #60c3dd;
+    --DarkBlue: #080329;
+    --purple: #250028;
+    --white: #fff;
+    --black: #000;
+    --green: #31efb8;
+    --HeaderFont: 'roboto', sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--DarkBlue);
+}
