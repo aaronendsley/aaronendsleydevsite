@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { footerContainer } from '../styles/footer.module.css';
 
 export default function Footer() {
 
@@ -12,7 +13,7 @@ export default function Footer() {
 
     return (
         <>
-            <footer>
+            <footer className={footerContainer}>
                 <p>{`Copyright Aaron Endsley`} <Copyright /></p>
             </footer>
         </>
