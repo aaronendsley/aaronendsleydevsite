@@ -18,8 +18,18 @@ body {
     padding: 0;
     background-color: var(--DarkBlue);
     height: 100%;
+    color: var(--white);
 }
 
 main {
     min-height: 100%;
+}
+
+.layout {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem;
 }

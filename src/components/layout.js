@@ -7,10 +7,13 @@ import '../styles/global.css';
 export default function Layout({ children }) {
 
     return (
-        <>
-            <HeaderNavigation />
-            <main>{children}</main>
+        <div className='layout'>
+            <div className='content-wrap'>
+                <HeaderNavigation />
+                <main>{children}</main>
+            </div>
             <Footer />
-        </>
+
+        </div>
     )
 }

@@ -1,8 +1,15 @@
 .footer-container {
-
     width: 100%;
     background-color: var(--green);
-    margin-bottom: 0;
-    display: block;
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
+.footer-container p {
+    margin: auto;
+    color: var(--DarkBlue);
 }
