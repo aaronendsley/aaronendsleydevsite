@@ -35,7 +35,7 @@
 
  .header-nav nav {
      align-content: space-evenly;
-     flex: 1.5;
+     flex: .5;
      display: flex;
      margin-right: 15px;
  }
