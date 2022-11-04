@@ -19,10 +19,12 @@ body {
     background-color: var(--DarkBlue);
     height: 100%;
     color: var(--white);
+    scrollbar-color: var(--green) var(--DarkBlue);
 }
 
 main {
     min-height: 100%;
+    margin-top: 70px;
 }
 
 .layout {

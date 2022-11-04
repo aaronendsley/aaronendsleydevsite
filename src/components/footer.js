@@ -14,7 +14,7 @@ export default function Footer() {
     return (
         <>
             <footer className={footerContainer}>
-                <p>{`Copyright Aaron Endsley`} <Copyright /></p>
+                <p>{`Copyright Aaron Endsley`.toUpperCase()} <Copyright /></p>
             </footer>
         </>
     )

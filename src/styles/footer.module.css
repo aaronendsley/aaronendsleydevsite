@@ -12,4 +12,7 @@
 .footer-container p {
     margin: auto;
     color: var(--DarkBlue);
+    font-family: var(--HeaderFont);
+    letter-spacing: 4px;
+    font-size: .8rem;
 }

@@ -42,10 +42,8 @@
 
  .header-nav nav ul {
      display: flex;
-     justify-content: start;
-     /* align-content: center; */
+     justify-content: flex-start;
      width: 100%;
-
  }
 
  .header-nav nav ul li {
