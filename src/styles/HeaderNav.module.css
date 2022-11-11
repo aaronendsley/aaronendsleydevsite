@@ -9,10 +9,19 @@
      background-color: var(--DarkBlue);
      justify-content: flex-start;
      color: var(--cyan);
-     border-bottom: solid 4px var(--green);
      font-family: var(--HeaderFont);
 
 
+ }
+
+ .header-nav:before {
+     content: "";
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     height: 4px;
+     width: 50%;
+     border-bottom: 1px solid var(--green);
  }
 
  .header-nav a:Link {
@@ -54,6 +63,10 @@
  }
 
  @media (min-width:800px) {
+     .header-nav:before {
+         width: 40%;
+     }
+
      .header-nav h1 {
          flex: 3;
          font-size: 1.5rem;
@@ -65,5 +78,13 @@
 
      .header-nav nav ul li {
          font-size: 1.5rem;
+     }
+
+
+ }
+
+ @media (min-width:1000px) {
+     .header-nav:before {
+         width: 400px;
      }
  }

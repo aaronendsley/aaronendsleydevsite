@@ -1,9 +1,7 @@
 :root {
     --cyan: #60c3dd;
     --DarkBlue: #080329;
-    --purple: #250028;
     --white: #fff;
-    --black: #000;
     --green: #31efb8;
     --HeaderFont: 'roboto', sans-serif;
 }
@@ -24,7 +22,7 @@ body {
 
 main {
     min-height: 100%;
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 .layout {
