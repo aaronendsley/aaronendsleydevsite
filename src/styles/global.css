@@ -4,6 +4,7 @@
     --white: #fff;
     --green: #31efb8;
     --HeaderFont: 'roboto', sans-serif;
+    --RegularFont: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -22,7 +23,7 @@ body {
 
 main {
     min-height: 100%;
-    margin-top: 90px;
+    margin-top: 175px;
 }
 
 .layout {
@@ -32,4 +33,28 @@ main {
 
 .content-wrap {
     padding-bottom: 2.5rem;
+}
+
+.post-decorator {
+    position: relative;
+}
+
+.post-decorator::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 4px;
+    width: 50%;
+    border-bottom: 1px solid var(--green);
+}
+
+.post-decorator::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 4px;
+    width: 50%;
+    border-bottom: 1px solid var(--green);
 }
