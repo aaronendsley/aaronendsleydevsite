@@ -1,0 +1,17 @@
+.Social {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.social-item {
+    color: var(--green);
+}
+
+@media (min-width:800px) {
+    .Social {
+        width: 750px;
+    }
+}
