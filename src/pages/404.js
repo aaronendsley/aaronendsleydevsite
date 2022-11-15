@@ -1,18 +1,20 @@
 import * as React from "react"
 import { Link } from "gatsby"
-
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-
+import { fourOhFour } from '../styles/404.module.css';
+import Qoutes from '../utils/qoutes';
+import chooseAQoute from "../utils/chooseQoute";
 
 const NotFoundPage = () => {
-  return (
-    <div style={pageStyles}>
+  const qoutes = Qoutes;
+  const Qoute = chooseAQoute(qoutes);
+  console.log(Qoute);
 
-      <Link to="/">Go home</Link>.
+  return (
+    <div className={fourOhFour}>
+      <h2>404</h2>
+      <p>{Qoute}</p>
+      <h3>The Page Requested Does not Exist</h3>
+      <Link to="/" alt="Go Home">Go Back Home, to Where Your Journey Began</Link>
 
     </div>
   )
