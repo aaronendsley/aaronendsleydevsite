@@ -19,7 +19,7 @@ export const query = graphql`
 `
 
 export default function IndexPage({ data }) {
-  console.log(data);
+
   return (
     <>
       <div className={indexHero}>
@@ -33,10 +33,13 @@ export default function IndexPage({ data }) {
       </div>
       <div className={indexContent}>
         <section className="post-decorator">
-          <p>We could cause a diplomatic crisis. Take the ship into the Neutral Zone Mr. Crusher, ready a collision course with the Borg ship. Damage report! You're going to be an interesting companion, Mr. Data. Shields up! Rrrrred alert! Commander William Riker of the Starship Enterprise. Not if I weaken first. We have a saboteur aboard. Travel time to the nearest starbase? A surprise party? Mr. Worf, I hate surprise parties.</p>
-          <div className="image-decorator">          <GatsbyImage image={getImage(data.SpacePic)} alt="A Photo of Aaron Endsley in a SpaceShip made for his children" /></div>
+          <p>&emsp; I am from Lawton, Oklahoma. I am a Christian, husband and a dad to four, I love playing video games, reading,  and watching Star Trek with my kids!</p>
+          <p> &emsp; I love to write code in HTML, CSS and JavaScript. I have been writing code for web pages since I was twelve years old, when my Dad taught me how to write HTML. I went to college and earned a bachelors degree in Multimedia Design, shortly after, I discovered CSS, and then JavaScript shortly after that. I am self taught and have been a front end web developer professionally for the last six years.  I love to learn new web technologies and experiment with them. I like to solve problems that help others or make their work simpler and have done this in my own professional work and those opportunity's are a joy to me when they come. </p>
+          <div className="image-decorator"><GatsbyImage image={getImage(data.SpacePic)} alt="A Photo of Aaron Endsley in a SpaceShip made for his children" /></div>
+          <p>&emsp; Soon, you will find on this site my portfolio. I plan to try to write about things that I have learned, and show off projects I have been working on. If you like what you see here please feel free to send me an e- mail or contact me on any of the links below!</p>
+          <p> Soli Deo Gloria <span> - Aaron Endsley</span> </p>
 
-          <p>I would *never* do that to you. They were just sucked into space. How long can two people talk about nothing? I think you've let your personal feelings cloud your judgement. Maybe we better talk out here; the observation lounge has turned into a swamp. I suggest you drop it, Mr. Data. What? We're not at all alike! Talk about going nowhere fast. The Federation's gone; the Borg is everywhere!</p>
+
         </section>
       </div>
     </>

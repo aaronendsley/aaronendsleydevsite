@@ -7,12 +7,12 @@ export default function HeaderNavigation() {
         <>
             <header className={headerNav}>
                 <h1><Link to="/" alt="home">AARON ENDSLEY</Link></h1>
-                <nav>
+                {/* <nav>
                     <ul>
                         <li>PORTFOLIO</li>
                         <li>BLOG</li>
                     </ul>
-                </nav>
+                </nav> */}
             </header>
         </>
     )

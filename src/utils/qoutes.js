@@ -4,11 +4,9 @@ const Qoutes = [
     "Some One Forgot to Reverse the Polarity of the Neutron Flow",
     "I canna' change the laws of physics.",
     "Its Elementary My Dear Riker",
-    "Some People Live Longer In Twenty Years Than Others Do In Eighty",
-    "Wibbly-Wobbly, Timey-Wimey... Stuff.",
+    "Wibbly-Wobbly, Timey-Wimey... Stuff Occured.",
     "I'm Sorry, I'm So Sorry.",
     "Don’t Blink.",
-    "Allons-y"
 
 ];
 

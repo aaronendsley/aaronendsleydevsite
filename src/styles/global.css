@@ -38,6 +38,10 @@ main {
     position: relative;
 }
 
+.post-decorator:first-child {
+    padding-top: 20px;
+}
+
 .post-decorator::before {
     content: "";
     position: absolute;
@@ -45,6 +49,7 @@ main {
     top: 0;
     height: 4px;
     width: 50%;
+    margin-bottom: 10px;
     border-bottom: 1px solid var(--green);
 }
 
@@ -56,6 +61,12 @@ main {
     height: 4px;
     width: 50%;
     border-bottom: 1px solid var(--green);
+}
+
+.post-decorator p span {
+    display: block;
+    padding: 10px;
+    margin-bottom: 30px;
 }
 
 .image-decorator {
