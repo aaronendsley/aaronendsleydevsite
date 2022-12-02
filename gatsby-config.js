@@ -3,7 +3,7 @@ module.exports = {
     title: `Aaron Endsley`,
     siteUrl: `https://www.aaronendsley.dev`
   },
-  plugins: ["gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-postcss", {
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-postcss", 'gatsby-plugin-netlify', {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
